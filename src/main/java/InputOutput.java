@@ -29,4 +29,8 @@ public class InputOutput {
             System.out.println(ballCnt + "볼 " + strikeCnt + "스트라이크");
         }
     }
+
+    public void endOutput() {
+        System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
+    }
 }
