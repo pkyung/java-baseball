@@ -48,7 +48,7 @@ public class Validate {
         /*
             입력 값이 1 또는 2가 아닌 경우
          */
-        if (!Pattern.matches("[0-1]", input)) {
+        if (!Pattern.matches("[1-2]", input)) {
             return Boolean.FALSE;
         }
 
