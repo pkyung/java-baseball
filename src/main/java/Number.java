@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.Random;
 
 public class Number {
-    public int create() {
+    public String create() {
         int value = 0;
 
         HashSet<Integer> numbers = new HashSet<>();
@@ -20,6 +20,6 @@ public class Number {
             value += Math.pow(10, i) * iterator.next();
             i++;
         }
-        return value;
+        return Integer.toString(value);
     }
 }
